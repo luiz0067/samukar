@@ -1,0 +1,177 @@
+.text{
+font-size:24px;
+
+
+}
+.conteudo_home{
+		width:1023px;
+		height:200px;
+		float:left;
+		background-color:#f8f8f8;		
+		display:block;
+		margin-left:auto;
+		margin-right:7px;
+		}
+		
+	#meio2{
+
+		width:1023px;
+		height:400px;
+		border: 0px;
+		background-color:#f8f8f8;
+		float:right;
+		
+		}
+		#tudo_home{
+			position:relative;
+			margin-left: auto;
+			margin-right: auto;
+			margin:0 auto;
+			width:1049px;
+			height:900px;
+			border: 0px;
+		}
+		
+		.produto_home{
+		margin-right:27px;
+		margin-top:1px;
+		width:227px;
+		height:197px;
+		background-color:f18536;
+		float:right;	
+	}	
+		
+		.home_pro{
+		height:85px;
+		width:700px;
+		background-color:#f8f8f8;
+		position:relative;
+		float:left;
+		}
+		
+		.home1{
+		height:241px;
+		width:762px;
+		background-color:#f8f8f8;
+		position:relative;
+		float:left;
+		}
+		#texthome{
+		float:left;
+		font-size:30px;
+		font-family:Myriad Pro ;
+		margin-top:10px;
+		margin-left:31px;
+		color:#FF9326;
+		}
+		#texthome1{
+		font-size:16px;
+		font-family:Calibri;
+		margin-top:26px;
+		margin-left:31px;
+		color:#333333;
+		float:left;	
+		}
+		
+		.home2{
+		height:90px;
+		width:261px;
+		background-color:#f8f8f8;
+		position:relative;
+		float:right;
+		margin-top:18px;
+		}
+		
+	.conteudo_h{
+		width:1023px;
+		height:360px;
+		float:left;
+		display:block;
+		margin-left:13px;
+		background-color:#f8f8f8;
+		
+		
+		}
+	
+		.Imagen_produtohome{
+		position:relative;
+		height:197px;
+		width:227px;
+		background-color:;
+	
+		
+		}
+	#text_produtohome{
+	font-size:25px;
+	font-family:Monotype Corsiva;
+	color:#999999;
+	float:right;
+	position:relative;
+	margin-top:26px;
+	margin-right:32px;
+	
+	}
+.produtoh{
+width:228px;
+height:280px;
+float:right;
+margin-right:20px;
+margin-bottom:25px;
+}
+.imagem_produtoh{
+width:228px;
+height:197px;
+float:right;
+}
+.conteudo_produtoh{
+width:228px;
+min-height:88px;
+height:auto;
+float:right;
+background:#fbe0cd;
+}
+.titulo_produtoh{
+color:#666666;
+font-family: Calibri;
+font-size:20px; 
+font-style:Bold Italic;
+margin-right:5px;
+} 
+.subtitulo_produtoh{
+color:#666666;
+font-family: Calibri;
+font-size:16px; 
+margin-right:5px;
+}
+.maish{
+margin-top:12px;
+width:114px;
+height:30px;
+float:right;
+background:#FF9326;
+}
+.valorh{
+width:228px;
+height:82px;
+float:right;
+background:#FF9326;
+}
+.lateral_maish{
+width:7px;
+height:30px;
+float:right;
+}
+.letra_maish{
+text-align: center;
+color:#ffffff;
+font-family: Calibri;
+font-size:16px; 
+float:left;
+}
+.letra_valorh{
+text-align: center;
+color:#ffffff;
+font-family: Calibri;
+font-size:39px; 
+float:left;
+}
