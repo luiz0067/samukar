@@ -1,0 +1,331 @@
+@charset "utf-8";
+/*estilos do sistema crm midiamix */
+@charset "utf-8";
+/* CSS Document */
+.clear{
+	clear:both;
+}
+.texto1{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center;  font-size:16px; text-align:center;line-height:23px;}
+	
+	.texto2{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center; font-size:26px; text-align:center;  line-height:29px;}
+	
+	.texto3{font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; font-size:15px; text-align:center; line-height:29px;}
+	
+
+	.linhas {
+		width:100%; height:auto; clear:both; display:block;}
+		
+	.linhacentro{
+		width:800px; height:auto; min-height:4px; clear:both; display:block; overflow:hidden; float:center; margin-left:auto; margin-right:auto; }	
+		
+	.linhalogo{
+		width:100%; background-image:url(./imagenscrm/logo.png); padding-top:30px; background-repeat:no-repeat; height:auto; min-height:140px; clear:both; display:block; float:center; margin-left:auto; margin-right:auto; }	
+		
+	.espaco{
+		float:left; display:block; font-family:"erp"; text-align:center; font-family:"erp"; font-size:16px; text-align:center;}	
+		
+	inputs{
+		width:151px; height:21px; float:left;}	
+		
+
+	
+	.invalid{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center;font-size:16px; text-align:center; width:800px; height:auto; margin-right:auto; margin-left:auto; float:center; color:#F90;
+	 font-weight:bold; line-height:30px;}
+	 #invalid{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center; font-size:16px; text-align:center; width:800px; height:auto; margin-right:auto; margin-left:auto; float:center; color:#F90;
+	 font-weight:bold; line-height:30px;}
+	 
+	div.input{
+		width:250px; height:120px; float:center; margin-left:auto; margin-right:auto; display:block; overflow:hidden;}
+		
+	div.esqueceu{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center; font-size:16px; text-align:center; width:800px; height:20px; color:#F90;
+	 font-weight:bold; line-height:20px;}	
+	 
+#midiamixtopo{
+	font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#F90; font-weight:bold; background-color:#CCC;}
+	.escritasabaixo{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000; font-weight:bold;}
+	.botaoacao{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666; font-weight:bold; text-decoration:none;}	 
+	
+	
+/* botoes menus principais */
+
+a.itensmenu{
+	font-family:Arial, Helvetica, sans-serif; color:#666; font-size:16px; text-decoration:none;}
+a.itensmenu:hover{
+	font-family:Arial, Helvetica, sans-serif; color:#F00; font-size:16px;text-decoration:underline;}
+	a.itensmenu:link{
+	font-family:Arial, Helvetica, sans-serif; color:#666; font-size:16px;text-decoration:none;}
+	a.itensmenu:visited{
+	font-family:Arial, Helvetica, sans-serif; color:#666; font-size:16px; text-decoration:none;}
+	
+
+/* estruturação */ 
+
+#tudo{
+	width:100%; height:100%; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px; background-color:#FFF;}
+	
+#conteudocentro{
+	width:1024px; height:600; float:center; margin-left:auto; margin-right:auto; clear:both; display:block;}	
+	
+#conteudo_cadastros{
+clear:both; display:block; width:100%; min-height:800px; height:auto;
+	}
+	
+	div.menuprincipal{
+	width:275px; min-height:800px; height:auto; float:left; display:block; overflow:auto;}
+
+		
+#menuscontainer{
+	width:257px; min-height:800px; height:auto; float:left; display:block; background-color: #E8E8E8; left:0px; top:0px;}
+
+	
+.linhascentro{
+	width:1024px; float:center; margin-left:auto; margin-right:auto; display:block; overflow:hidden; clear:both;}	
+	
+.linhastotal{
+	width:100%; height:auto; display:block; overflow:hidden; clear:both;}	
+	
+.branco{
+	float:left;}	
+	
+
+
+
+
+/*  barra de sair, botoes e tudo */
+#barrasair{
+	width:100%; position:fixed; height:30px; background-color:#000; float:center; clear:both; margin-left:auto; margin-right:auto;}
+
+#sair{
+	width:auto; height:30px; float:left; display:block; overflow:hidden;}
+	
+#botaooff{
+	width:26px; height:30px; float:left; display:block; overflow:hidden;}
+	
+#divtextosair{
+	width:auto; height:30px; float:left; display:block; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FF9900; line-height:30px;}				
+
+	#divtextosair:hover{
+	width:auto; height:30px; float:left; display:block; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; line-height:30px;}				
+
+	
+.textosair{
+	text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FF9900;}
+	
+#encerramento{
+	width:202px; height:30px; background-color:transparent; float:right; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFF; line-height:30px; }
+	
+	
+/* barra de banners */
+
+#barrabanner{
+	width:1024px; height:140px; float:left; display:block; overflow:hidden; clear:both; background-color:#E8E8E8;}
+	
+	
+#containercrm{
+	width:236px;  height:140px; float:left; display:block; overflow:hidden; margin-left:50px;}	
+	
+#crmmidiamix{
+	width:210px; height:84px; float:left; display:inline; overflow:hidden; margin-left:11px; margin-right:15px; margin-top:24px; margin-right:32px;}
+	
+#risco1{
+	width:1024px; height:2px; display:block; overflow:hidden; float:left; background-image:url(imagenscrm/risco1.gif); background-repeat:repeat-x;}	
+	
+#containercliente{
+	width:450px; height:130px; float:left; display:block; overflow:hidden; margin-right:30px;} 	
+	
+.foto_m{
+	margin-top:20px; margin-left:150px;
+	}
+#fotocliente{
+	width:190PX; height:100px; float:left; display:inline; overflow:hidden; margin-left:100px; margin-top:8px; margin-right:35px;/* menos 4 px na altura e largura, pcausa da borda de 2px */
+	 margin-bottom:32px; border:2px; border-style:solid; border-color:#CCCCCC;}	
+	 
+#riscobarra{
+		width:10px; height:140px;background-image:url(imagenscrm/riscobarra.gif); float:left;}	 
+	
+	
+/*  barra de usuario   */ 		
+
+#barrausuario{
+	width:1024px; padding-bottom:10px; height:45px; float:left; display:block; background-color:#FFF; overflow:hidden;}
+	
+#bemvindo{
+	width:274px; height:45px; float:left; display:block; overflow:hidden; background-color:#FFF; text-align:left; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:14px; line-height:45px;}	
+
+#ferramentas{
+	width:238px; height:45px; float:left; display:block; overflow:hidden;}
+
+#trocarsenha{
+	width:124px; height:45px; float:left; display:block; overflow:hidden;}
+	
+#suporte{
+	width:114px; height:45px; float:left; display:block; overflow:hidden;}
+	
+#containerjava{
+	width:197px; height:140px; float:right; display:block; overflow:hidden; margin-right:50px;}	
+	
+#logojava{
+	width:200px; height:76px; float:left; overflow:hidden; display:block;}
+
+#logomix{
+	width:44px; height:50px; float:left; display:block; overflow:hidden; background-image:url(imagenscrm/mix.gif);}		
+	
+/* menus principais */
+
+.divisor{
+	width:900px; height:auto; border-top:2px solid #000000; clear:both; margin-top:20px; margin-bottom:20px; font-size:20px; 
+}
+		  
+#divisorconteudovertical{
+	width:2px; float:left; display:block; height:auto; min-height:800px; background-color: #E8E8E8;}
+	
+#menudecomando{
+	width:247px; height:37px; background-color:#FF9900; float:left; margin-left:3px; margin-top:6px; /*  13 px a menos na largura */
+	 margin-right:8px; display:inline; font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#FFF; text-indent:10px; line-height:41px;
+	 border:2px; border-style:solid; border-color:#E68A00;}	
+
+ #nome_cadastro{
+	width:1000px; height:37px; background-color:#FF9900; text-align:left; margin-left:5px; margin-top:6px; /*  13 px a menos na largura */
+	 font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#FFF; text-indent:10px; line-height:41px;
+	 border:2px; border-style:solid; border-color:#E68A00;}	
+
+	 #input_cadastro{
+	padding:20px;
+	background-color:#E8E8E8;
+	border: 1px solid #A3A3A3;
+	margin-left:5px;
+	font-family:calibri;
+}
+#relatorio_input{
+	margin-left:5px;
+	font-family:calibri;
+}
+	
+	 #individual_cadastro{
+	height: auto;
+	min-width: 1000px;
+	width:auto;
+	float: left;
+	margin-left: 10px;
+	padding-bottom: 20px;
+}
+	 
+#menulateral {
+width: 251px;
+padding: 0;
+margin: 0;
+font: 16px Verdana, sans-serif;
+float:left;
+}
+/* caracteristicas do menu */
+#menulateral ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#menulateral li {
+border-bottom:1px; border-color:transparent;
+margin: 0;
+}
+#menulateral li a {
+display: block;
+padding: 5px 5px 5px 0.5em;
+background-color: #E8E8E8;
+color:#666666;
+text-decoration: none;
+margin-left:5px; display:block;
+}
+#menulateral li a:hover {
+background-color:#FFF;
+color:#000;
+}
+
+#menulateral li a:active {
+background-color:#FFF;
+color:#F90;
+}
+
+/* para o ie 7 e mac \*/
+* html ul#menulateral  li { float: left; height: 1%; }
+* html ul#menulateral  li a { height: 1%; }
+
+	
+	
+	
+/* inicial */
+
+.textoinicial {color:#999999; font-family:Verdana, Geneva, sans-serif; font-size:14px; text-align:left; line-height:100%;
+	}	
+	
+	
+.topo_adm{
+	width:100%;
+	height:auto;
+	
+}
+
+#inputs_formularios{
+	font-family:arial;
+	font-size:16px;
+	
+}
+.left_input{
+	width: 800px;
+	height: auto;
+	text-align: left;
+	float: left;
+}
+.tudo_input{
+	width:100%;
+	height:auto;
+	clear:both;
+	padding-bottom:10px;
+}
+.input_padrao{
+	text-align:left;
+	width:160px;
+	height:auto;
+	float:left;
+}
+.imagem_ajuda{
+	width:25px;
+	height:21px;
+	float:left;
+	margin-top:3px;
+	
+}
+.ajuda_crm{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-right:5px;
+}
+
+#tudo_ajuda{
+	width:326px;
+	height:auto;
+	font-family:arial;
+	font-size:16px;
+	float:left;
+	margin:0 auto;
+	margin-right:auto;
+	margin-left:auto;
+}
+.fase_ajuda{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-right:5px;
+}
+.imagem_fase_ajuda{
+	width:320px;
+	height:278px;
+	float:left;
+}
+		
+.texto_fase_ajuda{
+	padding-left:7px;
+}
+			
